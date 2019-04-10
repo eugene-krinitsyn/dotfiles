@@ -51,7 +51,7 @@ alias ours='f() { git checkout --ours $1; git add $1; git status }; f'
 # Folders
 
 alias dotfiles="cd ~/.dotfiles"
-alias gitdir="cd ~/Documents/Git"
+alias gitdir="cd ~/Downloads/_Projects"
 alias xcdir="~/Library/Developer/Xcode/"
 
 # Common

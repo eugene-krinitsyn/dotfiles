@@ -1,8 +1,8 @@
 [user]
-	name = Dmitry Baginsky
-	email = dmitri.baginski@gmail.com
+	name = Eugene Krinitsyn
+	email = eugene.krinitsyn@gmail.com
 [github]
-	user = betraying
+	user = eugene-krinitsyn
 [core]
 	excludesfile = ~/.gitignore
 [rerere]

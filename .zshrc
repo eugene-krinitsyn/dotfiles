@@ -7,6 +7,7 @@ fi
 
 ZSH_DISABLE_COMPFIX=true
 export ZSH="/Users/$(whoami)/.oh-my-zsh"
+export XCODE_INSTALL_USER="me.bizarre@gmail.com"
 
 ZSH_AUTOSUGGEST_CLEAR_WIDGETS+=(bracketed-paste accept-line)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=15'
