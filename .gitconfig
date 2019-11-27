@@ -5,6 +5,7 @@
 	user = eugene-krinitsyn
 [core]
 	excludesfile = ~/.gitignore
+	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -w -n
 [rerere]
 	enabled = true
 [pull]
