@@ -4,7 +4,7 @@
 [github]
 	user = eugene-krinitsyn
 [core]
-	excludesfile = ~/.gitignore
+	excludesfile = /Users/eugenekrinitsyn/.gitignore_global
 	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -w -n
 [rerere]
 	enabled = true
@@ -38,3 +38,11 @@
 	title-focus = black green reverse
 	author = white default
 	date = cyan default
+[difftool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/araxiscompare-w.sh -2 \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/araxisgitmerge-w.sh \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/eugenekrinitsyn/.stCommitMsg
