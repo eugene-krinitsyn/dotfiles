@@ -25,6 +25,8 @@ cask "sublime-merge"
 cask "transmission"
 cask "vlc"
 cask "proxyman"
+cask "tunnelblick"
+cask "figma"
 mas "1Password 7", id: 1333542190
 mas "Telegram", id: 747648890
 mas "Slack", id: 803453959
